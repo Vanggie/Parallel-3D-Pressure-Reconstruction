@@ -1,0 +1,753 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\OneDrive\OneDrive - Johns Hopkins University\CodeBackUp\Omni3D_8.0\Omni3D_8.0>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Programs\Visual Studio 2015\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -D_AFXDLL -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\kernel.cu.obj "D:\OneDrive\OneDrive - Johns Hopkins University\CodeBackUp\Omni3D_8.0\Omni3D_8.0\kernel.cu" 
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(580): warning : variable "y1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(581): warning : variable "y2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(582): warning : variable "z3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(583): warning : variable "z4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(667): warning : variable "x1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(668): warning : variable "x2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(669): warning : variable "z3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(670): warning : variable "z4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(755): warning : variable "x1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(756): warning : variable "x2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(757): warning : variable "y3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(758): warning : variable "y4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(899): warning : variable "x1" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(899): warning : variable "x2" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(900): warning : variable "y3" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(900): warning : variable "y4" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(901): warning : variable "z5" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(901): warning : variable "z6" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1559): warning : variable "r" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1559): warning : variable "xt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1559): warning : variable "yt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1559): warning : variable "zt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2044): warning : variable "curltmp" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2045): warning : variable "counttmp" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2267): warning : variable "r" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2267): warning : variable "xt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2267): warning : variable "yt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2267): warning : variable "zt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2412): warning : variable "r" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2412): warning : variable "xt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2412): warning : variable "yt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2412): warning : variable "zt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2652): warning : variable "facein" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2652): warning : variable "faceout" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2646): warning : variable "iin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2646): warning : variable "jin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2646): warning : variable "kin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2646): warning : variable "iout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2646): warning : variable "jout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2646): warning : variable "kout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2646): warning : variable "indexin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2646): warning : variable "indexout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2830): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2831): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2832): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2905): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2906): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2907): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2973): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2974): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2975): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3042): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3043): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3044): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3154): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3155): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3156): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3229): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3230): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3231): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3369): warning : variable "y1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3370): warning : variable "y2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3371): warning : variable "z3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3372): warning : variable "z4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3456): warning : variable "x1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3457): warning : variable "x2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3458): warning : variable "z3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3459): warning : variable "z4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3543): warning : variable "x1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3544): warning : variable "x2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3545): warning : variable "y3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3546): warning : variable "y4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3684): warning : variable "x1" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3684): warning : variable "x2" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3685): warning : variable "y3" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3685): warning : variable "y4" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3686): warning : variable "z5" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3686): warning : variable "z6" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3922): warning : variable "y1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3923): warning : variable "y2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3924): warning : variable "z3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3925): warning : variable "z4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4009): warning : variable "x1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4010): warning : variable "x2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4011): warning : variable "z3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4012): warning : variable "z4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4096): warning : variable "x1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4097): warning : variable "x2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4098): warning : variable "y3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4099): warning : variable "y4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4236): warning : variable "x1" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4236): warning : variable "x2" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4237): warning : variable "y3" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4237): warning : variable "y4" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4238): warning : variable "z5" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4238): warning : variable "z6" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4469): warning : variable "y1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4470): warning : variable "y2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4471): warning : variable "z3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4472): warning : variable "z4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4556): warning : variable "x1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4557): warning : variable "x2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4558): warning : variable "z3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4559): warning : variable "z4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4644): warning : variable "x1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4645): warning : variable "x2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4646): warning : variable "y3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4647): warning : variable "y4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4783): warning : variable "x1" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4783): warning : variable "x2" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4784): warning : variable "y3" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4784): warning : variable "y4" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4785): warning : variable "z5" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4785): warning : variable "z6" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4982): warning : variable "indexin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4982): warning : variable "indexout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5124): warning : variable "indexin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5124): warning : variable "indexout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5270): warning : variable "n" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5271): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5272): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5273): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5334): warning : variable "n" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5335): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5336): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5337): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5399): warning : variable "n" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5400): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5401): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5402): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5464): warning : variable "n" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5465): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5466): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5467): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5530): warning : variable "n" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5531): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5532): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5533): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5597): warning : variable "n" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5598): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5599): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5600): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5663): warning : variable "n" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5664): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5665): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5666): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5726): warning : variable "n" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5727): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5728): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5729): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5895): warning : variable "beta" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5807): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5808): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5809): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5811): warning : variable "a" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5812): warning : variable "b" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5813): warning : variable "c" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "xin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "yin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "zin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "xout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "yout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "zout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "k1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "k2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "k3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5817): warning : variable "n" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5818): warning : variable "iin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5818): warning : variable "jin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5818): warning : variable "kin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5818): warning : variable "iout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5818): warning : variable "jout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5818): warning : variable "kout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5975): warning : variable "y1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5976): warning : variable "y2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5977): warning : variable "z3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5978): warning : variable "z4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6062): warning : variable "x1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6063): warning : variable "x2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6064): warning : variable "z3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6065): warning : variable "z4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6150): warning : variable "x1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6151): warning : variable "x2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6152): warning : variable "y3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6153): warning : variable "y4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6291): warning : variable "x1" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6291): warning : variable "x2" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6292): warning : variable "y3" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6292): warning : variable "y4" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6293): warning : variable "z5" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6293): warning : variable "z6" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5946): warning : variable "indexin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5946): warning : variable "indexout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7019): warning : variable "facein" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7019): warning : variable "faceout" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7260): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7261): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7262): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7317): warning : variable "n" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7318): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7319): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7320): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7554): warning : variable "PlaneSt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7554): warning : variable "Planedt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7554): warning : variable "PlaneEnd" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7554): warning : variable "FileNumSt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7554): warning : variable "FileNumDelt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7554): warning : variable "FileNumEnd" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7561): warning : variable "rho" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7561): warning : variable "scale" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7563): warning : variable "eps" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7567): warning : variable "u" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7567): warning : variable "v" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7567): warning : variable "w" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7572): warning : variable "index" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7574): warning : variable "pcountitr_d" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(580): warning : variable "y1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(581): warning : variable "y2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(582): warning : variable "z3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(583): warning : variable "z4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(667): warning : variable "x1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(668): warning : variable "x2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(669): warning : variable "z3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(670): warning : variable "z4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(755): warning : variable "x1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(756): warning : variable "x2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(757): warning : variable "y3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(758): warning : variable "y4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(899): warning : variable "x1" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(899): warning : variable "x2" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(900): warning : variable "y3" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(900): warning : variable "y4" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(901): warning : variable "z5" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(901): warning : variable "z6" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1559): warning : variable "r" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1559): warning : variable "xt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1559): warning : variable "yt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1559): warning : variable "zt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2044): warning : variable "curltmp" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2045): warning : variable "counttmp" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2267): warning : variable "r" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2267): warning : variable "xt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2267): warning : variable "yt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2267): warning : variable "zt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2412): warning : variable "r" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2412): warning : variable "xt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2412): warning : variable "yt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2412): warning : variable "zt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2652): warning : variable "facein" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2652): warning : variable "faceout" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2646): warning : variable "iin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2646): warning : variable "jin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2646): warning : variable "kin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2646): warning : variable "iout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2646): warning : variable "jout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2646): warning : variable "kout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2646): warning : variable "indexin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2646): warning : variable "indexout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2830): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2831): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2832): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2905): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2906): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2907): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2973): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2974): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2975): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3042): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3043): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3044): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3154): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3155): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3156): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3229): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3230): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3231): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3369): warning : variable "y1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3370): warning : variable "y2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3371): warning : variable "z3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3372): warning : variable "z4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3456): warning : variable "x1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3457): warning : variable "x2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3458): warning : variable "z3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3459): warning : variable "z4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3543): warning : variable "x1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3544): warning : variable "x2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3545): warning : variable "y3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3546): warning : variable "y4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3684): warning : variable "x1" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3684): warning : variable "x2" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3685): warning : variable "y3" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3685): warning : variable "y4" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3686): warning : variable "z5" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3686): warning : variable "z6" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3922): warning : variable "y1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3923): warning : variable "y2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3924): warning : variable "z3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(3925): warning : variable "z4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4009): warning : variable "x1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4010): warning : variable "x2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4011): warning : variable "z3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4012): warning : variable "z4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4096): warning : variable "x1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4097): warning : variable "x2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4098): warning : variable "y3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4099): warning : variable "y4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4236): warning : variable "x1" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4236): warning : variable "x2" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4237): warning : variable "y3" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4237): warning : variable "y4" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4238): warning : variable "z5" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4238): warning : variable "z6" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4469): warning : variable "y1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4470): warning : variable "y2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4471): warning : variable "z3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4472): warning : variable "z4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4556): warning : variable "x1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4557): warning : variable "x2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4558): warning : variable "z3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4559): warning : variable "z4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4644): warning : variable "x1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4645): warning : variable "x2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4646): warning : variable "y3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4647): warning : variable "y4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4783): warning : variable "x1" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4783): warning : variable "x2" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4784): warning : variable "y3" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4784): warning : variable "y4" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4785): warning : variable "z5" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4785): warning : variable "z6" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4982): warning : variable "indexin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(4982): warning : variable "indexout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5124): warning : variable "indexin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5124): warning : variable "indexout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5270): warning : variable "n" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5271): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5272): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5273): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5334): warning : variable "n" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5335): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5336): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5337): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5399): warning : variable "n" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5400): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5401): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5402): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5464): warning : variable "n" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5465): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5466): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5467): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5530): warning : variable "n" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5531): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5532): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5533): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5597): warning : variable "n" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5598): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5599): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5600): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5663): warning : variable "n" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5664): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5665): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5666): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5726): warning : variable "n" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5727): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5728): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5729): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5895): warning : variable "beta" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5807): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5808): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5809): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5811): warning : variable "a" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5812): warning : variable "b" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5813): warning : variable "c" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "xin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "yin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "zin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "xout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "yout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "zout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "k1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "k2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "k3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5816): warning : variable "z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5817): warning : variable "n" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5818): warning : variable "iin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5818): warning : variable "jin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5818): warning : variable "kin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5818): warning : variable "iout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5818): warning : variable "jout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5818): warning : variable "kout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5975): warning : variable "y1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5976): warning : variable "y2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5977): warning : variable "z3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5978): warning : variable "z4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6062): warning : variable "x1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6063): warning : variable "x2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6064): warning : variable "z3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6065): warning : variable "z4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6150): warning : variable "x1" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6151): warning : variable "x2" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6152): warning : variable "y3" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6153): warning : variable "y4" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6291): warning : variable "x1" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6291): warning : variable "x2" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6292): warning : variable "y3" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6292): warning : variable "y4" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6293): warning : variable "z5" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6293): warning : variable "z6" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5946): warning : variable "indexin" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5946): warning : variable "indexout" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7019): warning : variable "facein" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7019): warning : variable "faceout" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7260): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7261): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7262): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7317): warning : variable "n" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7318): warning : variable "center_x" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7319): warning : variable "center_y" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7320): warning : variable "center_z" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7554): warning : variable "PlaneSt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7554): warning : variable "Planedt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7554): warning : variable "PlaneEnd" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7554): warning : variable "FileNumSt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7554): warning : variable "FileNumDelt" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7554): warning : variable "FileNumEnd" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7561): warning : variable "rho" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7561): warning : variable "scale" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7563): warning : variable "eps" was declared but never referenced
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7567): warning : variable "u" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7567): warning : variable "v" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7567): warning : variable "w" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7572): warning : variable "index" was set but never used
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7574): warning : variable "pcountitr_d" was declared but never referenced
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  kernel.cu
+D:\Programs\Visual Studio 2015\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  D:\Programs\Visual Studio 2015\VC\atlmfc\include\afx.h(33): note: see declaration of 'MBCS_Support_Deprecated_In_MFC'
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+D:\Programs\Visual Studio 2015\VC\atlmfc\include\atltime.h(1129): warning C4159: #pragma pack(pop,...): has popped previously pushed identifier 'ATL_PACKING'
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(80): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(83): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(88): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(96): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(101): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(105): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(121): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(128): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(132): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(139): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(146): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(156): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(163): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(170): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(176): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(183): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(206): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(209): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(214): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(220): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(225): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(228): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(247): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(254): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(258): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(265): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(272): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(281): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(294): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(299): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(306): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(328): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(332): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(336): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(343): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(348): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(351): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(369): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(376): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(382): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(388): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(395): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(405): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(412): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(418): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(423): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(430): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(506): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(507): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(510): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(514): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(515): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(521): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(523): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(526): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(529): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(531): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(537): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(538): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(542): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(545): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(546): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(568): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(569): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(570): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(589): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(591): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(595): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(597): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(605): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(607): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(611): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(613): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(621): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(622): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(627): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(628): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(637): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(638): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(643): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(644): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(677): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(678): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(683): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(684): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(693): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(694): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(699): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(700): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(708): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(709): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(714): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(715): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(724): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(725): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(730): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(731): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(765): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(766): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(771): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(772): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(781): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(782): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(787): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(788): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(796): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(798): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(802): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(804): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(812): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(814): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(818): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(820): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(844): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(845): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(862): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(863): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(881): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(882): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(914): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(915): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(920): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(921): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(930): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(931): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(936): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(937): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(945): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(947): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(951): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(953): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(961): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(963): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(967): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(969): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(977): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(978): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(983): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(984): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(993): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(994): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(999): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1000): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1154): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1155): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1156): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1214): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1221): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1228): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1259): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1260): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1261): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1328): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1335): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1342): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1374): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1375): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1376): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1445): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1454): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1463): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1503): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1504): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1505): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1591): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1600): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1609): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1559): warning C4101: 'xt': unreferenced local variable
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1559): warning C4101: 'yt': unreferenced local variable
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1559): warning C4101: 'r': unreferenced local variable
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1559): warning C4101: 'zt': unreferenced local variable
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1649): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1650): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1651): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1719): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1728): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1737): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1770): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1771): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1772): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1841): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1850): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1859): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1899): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1900): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1901): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1973): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1984): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(1995): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2031): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2032): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2033): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2107): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2133): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2160): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2213): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2214): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2215): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2299): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2309): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2319): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2267): warning C4101: 'xt': unreferenced local variable
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2267): warning C4101: 'yt': unreferenced local variable
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2267): warning C4101: 'r': unreferenced local variable
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2267): warning C4101: 'zt': unreferenced local variable
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2353): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2354): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2355): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2444): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2455): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2466): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2412): warning C4101: 'xt': unreferenced local variable
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2412): warning C4101: 'yt': unreferenced local variable
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2412): warning C4101: 'r': unreferenced local variable
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2412): warning C4101: 'zt': unreferenced local variable
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2502): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2503): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2504): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2570): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2582): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(2597): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5935): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5936): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5937): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5942): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5943): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6424): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6436): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6448): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6518): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6525): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(6531): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5946): warning C4101: 'indexout': unreferenced local variable
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(5946): warning C4101: 'indexin': unreferenced local variable
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7104): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7105): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7106): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7123): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7135): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7147): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7168): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7176): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7184): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7260): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7261): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7262): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7273): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7274): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7283): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7318): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7319): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7320): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7330): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7336): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7337): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7346): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7563): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7566): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7589): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7590): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7591): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7604): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7605): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7606): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7607): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7608): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7609): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7616): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7679): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7686): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7693): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7716): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7723): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7730): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7736): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7743): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7750): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7776): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7532): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'std::size_t'
+  D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7532): note: consider using '%zd' in the format string
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7533): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'std::size_t'
+  D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7533): note: consider using '%zd' in the format string
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7534): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'std::size_t'
+  D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7534): note: consider using '%zd' in the format string
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7535): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'std::size_t'
+  D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7535): note: consider using '%zd' in the format string
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7539): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'std::size_t'
+  D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7539): note: consider using '%zd' in the format string
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7554): warning C4101: 'FileNumSt': unreferenced local variable
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7574): warning C4101: 'pcountitr_d': unreferenced local variable
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7554): warning C4101: 'Planedt': unreferenced local variable
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7554): warning C4101: 'PlaneEnd': unreferenced local variable
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7554): warning C4101: 'FileNumEnd': unreferenced local variable
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7554): warning C4101: 'FileNumDelt': unreferenced local variable
+D:/OneDrive/OneDrive - Johns Hopkins University/CodeBackUp/Omni3D_8.0/Omni3D_8.0/kernel.cu(7554): warning C4101: 'PlaneSt': unreferenced local variable
+  Generating code
+  0 of 60 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    6 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Omni3D_8.0.vcxproj -> D:\OneDrive\OneDrive - Johns Hopkins University\CodeBackUp\Omni3D_8.0\x64\Release\Omni3D_8.0.exe
+  Omni3D_8.0.vcxproj -> D:\OneDrive\OneDrive - Johns Hopkins University\CodeBackUp\Omni3D_8.0\x64\Release\Omni3D_8.0.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "D:\OneDrive\OneDrive - Johns Hopkins University\CodeBackUp\Omni3D_8.0\x64\Release\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.
