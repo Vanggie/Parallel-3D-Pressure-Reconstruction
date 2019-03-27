@@ -1,29 +1,40 @@
-# Insight Coding Challenge
-Submission for Insight Data Engineering Pharmacy Counting Coding Challenge
+# Parallel 3D Reconstruction from Gradient
 
 Jin Wang
 
 # Table of Contents
-1. [Source Files](README.md#Source-Files)
-2. [Input](README.md#Input)
-3. [Counting ](README.md#Counting)
-4. [Sorting and Output](README.md#Sorting-and-Output)
+1. [The integration Algorithm](README.md#The-integration-Algorithm)
+2. [Flow Chart](README.md#Flow-Char)
+3. [Time Line ](README.md#Time-Line)
 
-# Source Files
-prescribe_data.h   contains  data structure and class to address and store the input data as a list.
-drug_data.h  contains data structure and class to store the output data as hashmap and sorted list of drug names.
-couting_service.h   contains functions needed to implement the couting serices required by the project.
-pharmacy_couting.cpp contains main function
+# The integration Algorithm
+Omni-directional integration is effective in minimizing the impact of local gradient errors, and provides a convenient means of avoiding areas with high gradient errors. Hence, the goal of the present effort is to develop and evaluate a fast and robust 3D pressure reconstruction method based on similar principles. The new GPU-based, parallel-line, 3D omni-directional method (Omni3D) discussed in the next section integrates the gradient along a series of parallel lines aligned in all possible directions. The pressure at every point is the average value obtained from integration along all the paths crossing this point. Hence, errors associated with a certain path are minimized. Iterations, typically 3–4, are used for correcting the initially assumed pressure distribution along the external surfaces of the sample volume. Hence, there is no need to prescribe a pressure distribution along the boundary.
+![Reading Input File](pic/schematic.png)
 
-# Input
-The input file is a plain text file, it was scanned line by line using parse_infile function inside couting_service class. For each line (string), it's segmented into id_str, last_name, first_name,drug_name,drug_cost_str. We firstly check whether the id and drug_cost are valid numbers, if not, this line is skipped and coresponding error information is logged in to the logging file. After parsing this line, varaibles got are organized as an entry and put into a list.
-![Reading Input File](pic/prescriber.png)
+# Flow Chart
+(i)
+Allocation of memory on the GPU device, as well as reading and transferring of the acceleration data to the GPU memory.
 
-# Counting
-For each drug, the number of Unique prescribes and total costs need to be counted. Thus, a hashmap, using the drug_name as key and other items as value is built. The hashmap allows us to locate, compare, and count the drug for each prescribe entry in the input data quickly. Since counting of unique prescriber is required, a hashset storing the prescibers for each drug is built. When couting the number of unique prescribers, whether the name of the prescriber can be found in the hashset is checked first, and number of prescribers increases by one if not found. At the same time, thenew prescriber is put into the hashset. In the meanwhile, total costs are updated every time.
-The counting procedure is done by process_data_LinebyLine function inside counting_service.h
-![Reading Input File](pic/drug.png)
+(ii)
+Using PLODI in parallel to obtain the pressure difference between each two boundary nodes, denoted as PINT (nin, nout), where, nin and nout are the starting and ending points of an integration path.
 
-# Sorting and Output
-Since the output should be sorted in descending order according to total cost of the drug. We use a priority_queue to sort the pair<drug_name,drug_cost> in cost decreasing order. Then a ordered list of drug_name is obtained from the priority_queue. Based on the sorted list, and the hashmap with key of the drug name. We are able to output the processed data in to a text file.
+(iii)
+Calculating the pressure in each of the boundary nodes by averaging the results of integrations from all directions.
+![Reading Input File](pic/formula iteration.png)
+
+where Nsurface is the total number of grid points on the surface of the sample volume. The values of M or N could be selected independent of Nsurface. Theoretically, for large line spacing and small number of angles, some boundary points could be missed. As a rigorous error analysis later in this paper shows, such occurrence is undesirable in the application of Omni3D, and that the optimal line spacing is comparable to the grid spacing. After updating the pressure over the entire surface, this procedure is repeated until results converge. Typically, 3–4 iterations are sufficient to reach convergence.
+ 
+(iv)
+Inner pressure integration: in parallel, each GPU thread is assigned an integration path from boundary to boundary nodes, and PLODI is applied to calculate and store the pressure in inner nodes along this path. The value obtained by averaging the results obtained for all the paths is the final pressure in each internal node.
+
+ 
+(v)
+Transferring the data from the GPU to the host memory and storing it.
+![Reading Input File](pic/flow chart.png)
+
+# Time Line
+The timeline for applying the Omni3D method in the 100 × 47 × 38 voxel grid is shown in Fig. 3. As is evident, using a low-cost, Tesla K40c GPU board, which has 2880,745 MHz processors and 12 GB memory, reduces the total computation time to about 1 minute. The data transfer and memory allocation take 16 s; calculating the pressure difference between boundary nodes costs 15 s; parallel iterations to obtain the pressure along the boundary takes 10 s; and calculating the internal pressure costs 20 s. Furthermore, as recent tests have shown, using an advanced GPU Geforce RTX 2080 Ti board and the newer Cuda 8.0 toolkit, reduces the computation time of Omni3D by 6 times, to about 10 s. The pressure increments between boundary nodes are stored in the global memory of the GPU board to save the data transfer time. Consequently, only two applications of PLODI are needed to obtain a converged pressure field, one for the surface values, and the other for internal points. A modified approach, which would maintain the internal pressure differences between nodes during the initial application in step 2 could reduce it to one; however, it requires much larger amount of memory. The current approach is 180 times faster than pressure calculations using the above-mentioned CPU. Currently, all the computations are performed in single precision (32 bit), for which the peak floating-point performance of the present GPU is 4.29 Tflops. Using double precision, this performance decreases to 1.43 Tflops, causing an increase in computation time to about 3 min. The computation time can be further reduced by implementation of kernels concurrency as well as concurrency between memory copying and kernels when the code is used to compute a time series of the pressure field.
+![Reading Input File](pic/time line.png)
+
+
 
