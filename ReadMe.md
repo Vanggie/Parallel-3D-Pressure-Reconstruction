@@ -9,7 +9,7 @@ Jin Wang
 
 # The integration Algorithm
 Omni-directional integration is effective in minimizing the impact of local gradient errors, and provides a convenient means of avoiding areas with high gradient errors. Hence, the goal of the present effort is to develop and evaluate a fast and robust 3D pressure reconstruction method based on similar principles. The new GPU-based, parallel-line, 3D omni-directional method (Omni3D) discussed in the next section integrates the gradient along a series of parallel lines aligned in all possible directions. The pressure at every point is the average value obtained from integration along all the paths crossing this point. Hence, errors associated with a certain path are minimized. Iterations, typically 3–4, are used for correcting the initially assumed pressure distribution along the external surfaces of the sample volume. Hence, there is no need to prescribe a pressure distribution along the boundary.
-![Reading Input File](pic/schematic.png)
+![Reading Input File](pic/skematic.png)
 
 # Flow Chart
 (i)
