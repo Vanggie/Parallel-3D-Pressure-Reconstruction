@@ -20,7 +20,7 @@ Using PLODI in parallel to obtain the pressure difference between each two bound
 
 (iii)
 Calculating the pressure in each of the boundary nodes by averaging the results of integrations from all directions.
-![Reading Input File](pic/formulaiteration.png)
+![Reading Input File](pic/formulainteration.png)
 
 where Nsurface is the total number of grid points on the surface of the sample volume. The values of M or N could be selected independent of Nsurface. Theoretically, for large line spacing and small number of angles, some boundary points could be missed. As a rigorous error analysis later in this paper shows, such occurrence is undesirable in the application of Omni3D, and that the optimal line spacing is comparable to the grid spacing. After updating the pressure over the entire surface, this procedure is repeated until results converge. Typically, 3–4 iterations are sufficient to reach convergence.
  
