@@ -1,0 +1,79 @@
+64
+64
+64
+0.00024
+0.00024
+0.00024
+1000
+1
+0.7
+10242
+GridIcosahedronDivide6.dat
+.\AccelerationFilesSample\
+.\Pressure\
+10
+52921780
+
+
+
+
+
+
+
+
+
+
+----------------------------------Omni3D Standard/Weighted/Selected-Weighted Method---------------
+
+-------------------------------------Parameter Description------------------------------
+51                                             GridSizex
+46                                             GridSizey
+26                                             GridSizez
+0.005003000000000                              Deltax
+0.005003000000000                              Deltay
+0.005003000000000                              Deltaz
+1                                              density
+1                                              Scale.. Usually set to one.
+0.7                                            Parallel line spacing
+10242                                          Total number of grid points on virtual sphere
+GridIcosahedronDivide6.dat                     file of grid points on virtual sphere
+.\AccelerationFilesSample\                     acceleration folder...Accelerations should be complete Tecplot format. With 3 headerlines.
+.\PressureSample\                              Pressure to be stored. Can be automatically created
+4                                              Total number of iteration steps.. Suggest: 4-20.
+200                                            Thesholding for curl of material acceleration, which represents the error in accelerations. Points with values larger than this will not be visited in "Selected Method".
+
+!!!!!!!!!!-----------------------------------Hidden parameters---------------------------------------
+below the last parameter, six blank lines are intentionally left, which are the hidden parameters for "Region of Interest" as follows.
+ROIstarti
+ROIendi
+ROIstartj
+ROIendj
+ROIstartk
+ROIendk
+
+When it's blank, the deault values will be set in the program as:
+ROIstarti=0
+ROIendi=GridSizex-1
+ROIstartj=0
+ROIendj=GridSizey-1
+ROIstartk=0
+ROIendk=GridSizez-1
+
+
+----------------------------------Parameter Samples of DNS Verification----------------------------------------
+----------------------------------Data is obtained from JHU DNS Database, the channel flow---------------------
+----------------------------------Corresponding DNS Pressure is in PDNS.dat------------------------------------
+51
+46
+26
+0.005003000000000
+0.005003000000000
+0.005003000000000
+1
+1
+0.7
+10242
+GridIcosahedronDivide6.dat
+.\AccelerationFiles\
+.\Pressure\
+4
